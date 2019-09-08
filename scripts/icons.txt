@@ -1,0 +1,157 @@
+var docs = document.getElementById('luh');
+ var modal =  document.getElementById('secModal');
+
+ var icon = document.getElementsByClassName('myIcons');
+ var clos = document.getElementsByClassName('secClose');
+ var capt = document.getElementById('capt');
+
+//  for(i = 0; i < icon.length; i++){
+//      icon[i].onclick = function (){
+//          capt.alt = this.alt;
+//         //  alert(this.alt);
+//          capt.innerHTML = this.alt;
+
+//          if(this.alt == "+639100705763"){
+//             //  docs.className = 'blur';
+//              modal.style.display = "block";
+//              modal.style.width = "15%";
+//              modal.style.left = "43%";
+//              modal.style.top = "35%";
+
+//         }else{
+//             modal.style.display = "block";
+//             modal.style.width = "28%";
+//             modal.style.left = "35.6%";
+//         }
+        
+//      }
+//  }
+
+var contact = document.getElementById('conta');
+var locatio = document.getElementById('loc');
+var gma = document.getElementById('gmail');
+var conCount = 0;
+var locCount = 0;
+var gmCount = 0;
+// var pos = "-10";
+
+
+// var id = setInterval(frame, 1);
+// var backToTop = setInterval(btt, 1000);
+
+// var locID = setInterval(locationDelay, 1000);
+
+function cont(){
+            
+
+        if(locCount == 1 | gmCount == 1){
+
+        closeCont();
+        function locationDelay(){
+            capt.alt = contact.alt;
+            capt.innerHTML = contact.alt;
+            modal.style.display = "block";
+            modal.style.width = "15%";
+            modal.style.left = "43%";
+            modal.style.top = "35%";
+            locCount = 0;
+            gmCount = 0;
+            conCount = 1;
+        }
+        setTimeout(locationDelay, 400);
+
+        }else{
+        capt.alt = contact.alt;
+        capt.innerHTML = contact.alt;
+        modal.style.display = "block";
+        modal.style.width = "15%";
+        modal.style.left = "43%";
+        modal.style.top = "35%";
+        conCount = 1;
+    }
+}
+           
+
+function loca(){
+        
+
+        if(conCount == 1 | gmCount == 1){
+
+        closeCont();
+        function locationDelay(){
+            capt.alt = locatio.alt;
+            capt.innerHTML = locatio.alt;
+            modal.style.display = "block";
+            modal.style.width = "28%";
+            modal.style.left = "35.6%";
+            modal.style.top = "35%";
+            conCount = 0;
+            gmCount = 0;
+            locCount = 1;
+        }
+        setTimeout(locationDelay, 400);
+
+        }else{
+        capt.alt = locatio.alt;
+        capt.innerHTML = locatio.alt;
+        modal.style.display = "block";
+        modal.style.width = "28%";
+        modal.style.left = "35.6%";
+        modal.style.top = "35%";
+        locCount = 1;
+    }
+}
+
+
+function mailg(){
+        
+
+        if(conCount == 1 | locCount == 1){
+
+        closeCont();
+        function locationDelay(){
+            capt.alt = gma.alt;
+            capt.innerHTML = gma.alt;
+            modal.style.display = "block";
+            modal.style.width = "28%";
+            modal.style.left = "35.6%";
+            modal.style.top = "35%";
+            conCount = 0;
+            locCount = 0;
+            gmCount = 1;
+        }
+        setTimeout(locationDelay, 400);
+
+        }else{
+        capt.alt = gma.alt;
+        capt.innerHTML = gma.alt;
+        modal.style.display = "block";
+        modal.style.width = "28%";
+        modal.style.left = "35.6%";
+        modal.style.top = "35%";
+        gmCount = 1;
+    }
+}
+
+
+
+
+function closeCont() {
+
+    var closeid = setInterval(frame1, 1);
+    var pose = "35";
+            function frame1(){ 
+                    pose--;
+                    modal.style.top = pose + "%";
+
+                    if(pose == -10){
+                        
+                    clearInterval(closeid);
+                    capt.alt = contact.alt;
+                    capt.innerHTML = contact.alt;
+                    modal.style.width = "15%";
+                    modal.style.left = "43%";
+                    modal.style.display = "none";
+                    }
+                }
+            }   

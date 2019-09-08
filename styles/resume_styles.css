@@ -1,0 +1,80 @@
+* {box-sizing:border-box}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 2560px) {
+.resumeBox{
+    box-shadow: -5px 5px 5px #00000080;
+    background-color: #fff;
+    display: block;
+    clear: both;
+    width: 70%;
+}
+
+.resume_name{
+    color: rgb(35, 72, 236);
+    padding-top: 40px;
+}
+
+.email{
+    text-decoration-line: underline;
+    color:blue;
+}
+
+.git{
+    color: blue;
+}
+
+.left-header_align{
+    color: rgb(35, 72, 236);
+    text-align: left;
+    margin-left: 5%;
+}
+
+.left-text_align{
+    text-align: left;
+    margin-left: 5%;
+}
+
+.left-text_bullets_align{
+    text-align: left;
+    margin-left: 3%;
+}
+
+.bsit{
+    color: rgb(52, 87, 240);
+    text-align: left;
+    margin-left: 5%;
+}
+
+.left-text_align_school{
+    text-align: left;
+    margin-left: 5%;
+    margin-top: -2%;
+}
+
+.left-text_bullets_align_references{
+    padding-bottom: 40px;
+    text-align: left;
+    margin-left: 3%;
+}
+
+.softCopy{
+    background-color: rgb(236, 27, 27);
+    color: rgb(242, 255, 189);
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    position: fixed;
+    padding: 1%;
+    bottom: 5%;
+    left: 3%;
+}
+
+
+.softCopy:hover{
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.733);
+    background-color: rgb(242, 255, 189);
+    color: rgb(236, 27, 27);
+}
+
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="icon" type="image/png" href="ic/HD_logo.png">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/styles_tablet.css">
+    <link rel="stylesheet" href="styles/styles_mobile.css">
+    <title>John Humbert Duran</title>
+</head>
+<body onresize="res()">
+
+
+
+    <div class="space">
+
+    </div>
+
+    <div class="img">
+        <img src="me.JPG" alt="John Humbert Duran" class="me">
+    </div>
+
+    <div class="header">
+        <h2 class="myName">Hi! I am John Humbert T. Duran</h2>
+    </div>
+            <div class="ic">
+                <ul>
+                    <li class="icons"><img src="ic/png/call.png" alt="+639100705763" id="conta" class="myIcons" onclick="cont()"></li>
+                    <li class="icons"><img src="ic/png/loc.png" alt="Camanci Norte, Numancia, Aklan" id="loc" class="myIcons" onclick="loca()"></li>
+                    <li class="icons"><a href="https://www.facebook.com/humbert007" target="_blank"><img src="ic/png/fb.png" alt="facebook"></a></li>
+                    <li class="icons"><img src="ic/png/gm.png" alt="johnhumbertd@gmail.com" id="gmail" class="myIcons" onclick="mailg()"></li>
+                    <li class="icons"><a href="https://www.linkedin.com/in/john-humbert-duran-9220a0163" target="_blank"><img src="ic/png/in.png" alt="linkedin"></a></li>
+                    <li class="icons"><a href="https://www.youtube.com/channel/UCbO_ymjR5eebTraiwSjDzxA" target="_blank"><img src="ic/png/yt.png" alt="youtube"></a></li>
+                    <li class="icons"><a href="https://github.com/johnhumbertduran" target="_blank"><img src="ic/png/git.png" alt="github"></a></li>
+                </ul>
+            </div>
+
+            <div class="nav">
+                <ul>
+                    <li class="navs"><a href="about.html">About Me</a></li>
+                    <li class="navs"><a href="resume.html">Resume</a></li>
+                    <li class="navs"><a href="mywork.html">My Work</a></li>
+                </ul>
+            </div>
+
+                <div id="myModal" class="modal">
+                    <span class="close">×</span>
+                    <center>
+                    <div class="forImg">
+                            <img class="modal-content" id="img01">
+                        </div>
+                    </center>
+                    <div id="caption"></div>
+                    </div>
+
+                    <div class="secModal" id="secModal">
+                        <span class="secClose" id="secClose" onclick="closeCont()">x</span>
+                        <h3 class="capt" id="capt"></h3>
+                    </div>
+
+            <script src="scripts/icons.js"></script>
+            <script src="scripts/modal.js"></script>
+</body>
+</html>

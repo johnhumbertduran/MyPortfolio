@@ -1,0 +1,164 @@
+* {box-sizing:border-box}
+
+@media only screen and (min-width: 1024px) and (max-width: 2560px) {
+.head{
+    color: rgb(231, 253, 238);
+    text-decoration: none;
+}
+
+.label{
+    color: rgb(253, 22, 22);
+}
+
+.works{
+    width: 50%;
+}
+
+.works:nth-child(odd){
+    /* background-image: url("../img/red.jpg"); */
+    /* background-attachment: fixed; */
+    /* background-color: aqua; */
+    float: left;
+    clear: both;
+}
+
+.works:nth-child(even){
+    /* background-image: url("../img/green.jpg"); */
+    /* background-attachment: fixed; */
+    /* background-color: blueviolet; */
+    float: right;
+    clear: both;
+}
+
+/* .msaccess{
+    background-color: rgb(248, 241, 255);
+    width: 30%; */
+    /* height: 100px; */
+    /* padding: 10px;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+} */
+
+/* .mt{
+    background-color: rgb(248, 241, 255);
+    width: 30%; */
+    /* height: 100px; */
+    /* padding: 10px;
+    position: absolute;
+    left: 50%;
+    top: 285%;
+} */
+
+/* .tc{
+    background-color: rgb(248, 241, 255);
+    width: 30%; */
+    /* height: 100px; */
+    /* padding: 10px;
+    position: absolute;
+    left: 50%;
+    top: 480%;
+} */
+
+/* .work_img{
+    width: 10%;
+} */
+
+img{
+    width: 80%;
+}
+
+/* .work_moth{
+    width: 70%;
+} */
+
+.bg1{
+    background-image: url("../img/works/1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 663px;
+    margin-left:-8px;
+    padding:10%;
+    width: 101.1%;
+    clear: both;
+}
+
+.bg2{
+    background-image: url("../img/works/2.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 663px;
+    margin-left:-8px;
+    padding:10%;
+    width: 101.1%;
+    clear: both;
+}
+
+.bg3{
+    background-image: url("../img/works/3.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    height: 663px;
+    margin-left:-8px;
+    padding:10%;
+    width: 101.1%;
+    clear: both;
+}
+
+.bg4{
+    background-image: url("../img/works/4.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 663px;
+    margin-left:-8px;
+    padding:10%;
+    width: 101.1%;
+    clear: both;
+}
+
+.bg5{
+    background-image: url("../img/works/5.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 663px;
+    margin-left:-8px;
+    padding:10%;
+    width: 101.1%;
+    clear: both;
+}
+
+.bg6{
+    background-image: url("../img/works/6.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 663px;
+    margin-left:-8px;
+    padding:10%;
+    width: 101.1%;
+    clear: both;
+}
+
+.bg7{
+    background-image: url("../img/works/7.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 663px;
+    margin-left:-8px;
+    padding:10%;
+    width: 101.1%;
+    clear: both;
+}
+
+.bg8{
+    background-image: url("../img/works/8.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 663px;
+    margin-left:-8px;
+    padding:10%;
+    width: 101.1%;
+    clear: both;
+}
+
+}
